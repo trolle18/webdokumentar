@@ -1,0 +1,122 @@
+body {
+    height: 100%;
+    margin: 0;
+    background-color: #A0DFF9;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+
+/* ---------- HEADER ---------- */
+.header-sec {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.header-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.header-text {
+    position: absolute;
+    color: #fff;
+    top: 20%;
+    left: 20%;
+}
+
+/*---------- VIDEO ----------*/
+.video-sec {
+    background-color: #000;
+    margin: auto;
+}
+
+.vid {
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+/*---------- VALGFAG ----------*/
+.valgfag-sec {
+    margin: 20px 0;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container div {
+    background-color: #fff;
+    width: 150px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.title {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.text {
+    font-size: 14px;
+}
+
+
+/*---------- FOOTER ----------*/
+footer {
+    background-color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+
+.some {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+}
+
+.some-icon {
+    width: 50px;
+    margin: 10px;
+}
+
+
+
+/* ---------- MEDIA QUERIES ---------- */
+
+/* XS devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+
+/* S devices (portrait tablets/large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+
+/* M devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+
+/* L devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+
+/* XL devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
