@@ -45,12 +45,12 @@ body {
     margin: 20px 0;
 }
 
-.flex-container {
+.valgfag-container {
     display: flex;
     justify-content: center;
 }
 
-.flex-container div {
+.valgfag-container div {
     background-color: #fff;
     width: 150px;
     margin: 10px;
@@ -68,13 +68,33 @@ body {
 }
 
 
+/*---------- REVIEWS ----------*/
+.review-sec {
+    margin: 20px 0;
+}
+
+.review-container {
+    display: flex;
+    justify-content: center;
+}
+
+.review-container div {
+    background-color: #fff;
+    width: 200px;
+    margin: 10px;
+    padding: 5px;
+    font-size: 10px;
+    text-align: center;
+    font-style: italic;
+}
+
+
 /*---------- FOOTER ----------*/
 footer {
     background-color: #fff;
     text-align: center;
     padding: 10px 0;
 }
-
 
 
 .some {
