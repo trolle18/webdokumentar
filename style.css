@@ -79,6 +79,7 @@ body {
 .card {
     background-color: #A0DFF9;
     width: 200px;
+    height: auto;
     margin: 40px 20px;
     padding: 5px;
     filter: drop-shadow(10px 8px rgba(0, 0, 0, 0.3));
@@ -89,10 +90,15 @@ body {
     font-weight: bold;
     text-align: center;
     font-variant: small-caps;
+    vertical-align: middle;
 }
 
 .text {
     font-size: 14px;
+    border: solid red 0px;
+    margin: 10px;
+    line-height: 20px;
+    vertical-align: middle;
 }
 
 .button {
