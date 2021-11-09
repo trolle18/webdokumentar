@@ -91,6 +91,7 @@ body {
     text-align: center;
     font-variant: small-caps;
     vertical-align: middle;
+    margin-bottom: -0px;
 }
 
 .text {
@@ -99,6 +100,16 @@ body {
     margin: 10px;
     line-height: 20px;
     vertical-align: middle;
+}
+
+.icon {
+    margin-bottom: -20px;
+}
+
+.icon img {
+    width: 100px;
+    height: 100px;
+    margin: 10px 50px 10px 50px;
 }
 
 .button {
@@ -157,7 +168,14 @@ body {
      opacity: 1;
  }
 
+/* Svg */
 
+svg {
+    height: auto;
+    width: 100px;
+    margin-bottom: -20px;
+    margin-left: 50px;
+}
 
 /*---------- REVIEWS ----------*/
 .review-sec {

@@ -33,7 +33,7 @@ function handler(entries) {
 }
 
 const observer = new IntersectionObserver(handler, {
-    threshold: 0.7,
+    threshold: 0.5,
 });
 
 
