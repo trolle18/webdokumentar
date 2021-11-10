@@ -175,7 +175,17 @@ svg {
     width: 100px;
     margin-bottom: -20px;
     margin-left: 50px;
+    position: relative;
 }
+
+/*
+svg path {
+fill: none;
+stroke: black;
+stroke-width: 5;
+
+}
+*/
 
 /*---------- REVIEWS ----------*/
 .review-sec {
